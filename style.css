@@ -87,7 +87,7 @@ body {
 header {
     color: white;
     background-color: black;
-    height: 100px;
+    height: auto;
 }
 .title {
     display: flex;
