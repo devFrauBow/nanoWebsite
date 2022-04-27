@@ -29,6 +29,7 @@ html, body{
     justify-content: space-evenly;
     font-size: 30px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .navtop a{
@@ -124,10 +125,14 @@ header {
     margin-right: auto;
      border-radius: 50%;
 }
+.buttondiv{
+    padding: 5px;
+    display: flex;
+    justify-content: center;  
+}
 .div-invite{
     height: 120px;
     color:pink;
-    position: relative;
     font-size: 30px;
     text-align: center;
 }
@@ -137,12 +142,9 @@ header {
 }
 .actualbutton{
     margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-size: 20px;
+    display: block;
+    text-align: center;
+    font-size: 30px;
     border-radius: 10px;
     background-color: pink;
     font-family: Fredoka;
@@ -153,27 +155,53 @@ header {
 
 
 
+.galeryitem{
+    margin: 30px;
+}
+.imgTitle{
+    display:block;
+    font-weight: bold;
 
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    text-align: center;
+}
 .picsSection{
     display:grid;
     text-align: center;
 }
-.imgGalery {
-    width:300px;
-    height: 300px;
+.imgs {
+    height: 200px;
     margin-right: 10px;
+    border-radius: 5%;
 }
 .imagespan{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-grow: 1;
 }
 .buttonSec{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 5px;
 }
 .buttonVote{
+    border: 30px;
+    font-size: 20px;
+    margin: 10px;
     border-radius: 10px;
-    background-color: pink;
+    background-color: lightblue;
+}
+
+.buttonVote:hover{
+    background-color: rgb(185, 15, 120);
+    text-decoration: none;
+}
+.galeryitems{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
 }
