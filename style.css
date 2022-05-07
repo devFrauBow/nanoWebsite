@@ -1,5 +1,6 @@
 *{
     font-family: Fredoka;
+    list-style-type: none;
 }
 
 html, body{
@@ -204,4 +205,27 @@ header {
     justify-content: space-around;
     align-items: center;
     padding: 5px;
+}
+.titulo-comandos h1{
+    text-align: center;
+}
+.command-list{
+    height:auto;
+    text-align: center;
+    padding-right: 3vh;
+    background: rgb(247, 45, 220, 0.09);
+    justify-content: center;
+    text-decoration: none;
+}
+.command-list h3{
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgb(17, 0, 15);
+}
+.command-list div{
+    margin: 2px;
+    border: 1px solid rgb(247, 45, 220, 0.1);
+    background: rgb(247, 45, 220, 0.09);
+}
+.command-list p{
+    text-decoration: none;
 }
