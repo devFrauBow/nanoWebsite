@@ -1,3 +1,3 @@
 function inviteBot() {
-    location.href = 'https://discord.gg/PQvubEnd2z';
+    location.href = 'https://discord.com/api/oauth2/authorize?client_id=460440837499781120&permissions=0&scope=bot';
 }
